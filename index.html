@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezra Abraham Portfolio Website</title>
+    <link rel="stylesheet" href="./myblog.css">
+    <script src="./myblog.js"></script>
+    <script src="https://kit.frontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./newlogoo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>web Developer</p>
+                <h1>Hi, <br>I'm <span>Ezra Abraham</span></h1>
+            </div>
+        </div>
+        <!-- <div id="img"><img src="../assets/bgimg.png"></div> -->
+    </div>
+    <!-- -----------------about------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img id="userimg" src="./IMG_20230905_134119.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hi, I'm  Ankani Ezra Abraham  from  Matlam  Kruthivennu  Mandal, Krishna  district.  Recently, I graduated from 
+                        Swarnandhra College of Engineering and Technology in Narsapuram with a degree in Computer Science and Engineering, 
+                        achieving a CGPA of 7.21. During my 3 years of B.Tech, I completed an internship in Verzeo on Artificial Intelligence 
+                        with Python, where I worked on a basic project - Face Mask Detection. Additionally, I undertook an internship 
+                        with AWS Cloud Virtual Internship from EduSkills and earned certification as an AWS Cloud Practitioner.
+                             
+                             For my final year project in B.Tech, I developed a Traffic Rules Violation Detection System using Python. 
+                        The system takes action if anyone violates traffic rules.
+                         
+                    </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML / CSS / JavaScript</span><br>Designing Website interfaces</li>
+                            <li><span>Java</span><br>Developing Websites</li>
+                            <li><span>SQL</span><br>DataBase Opertator</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2023</span><br>Bachelor of technology 
+                                <br> Swarnandhra Collage Of Engineering and Technology Narsapuram<br>
+                                Computer Scince and Engineering <br> CGPA : 7.21</li>
+                            <li><span>2017 - 2020</span><br>Polytechnic <br>
+                                A.A.N.M & V.V.R.S.R Polytechnic Collage Gudlavalleru<br> 
+                                Computer Engineering <br> Percentage : 68.02%
+                                </li>
+                            <li><span>2016 - 2017</span>10th <br>J BEERA E.M SCHOOL <br> GPA : 6.5</li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -----------------------------------services----------------------------------- -->
+
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code" class="icons"></i>
+                <h2>Designing Website interfaces</h2>
+                <p> Understanding your user’s pain points is an essential first step in the UI design process
+                    Web design encompasses many different skills and disciplines in the production and maintenance of websites. 
+                    The different areas of web design include web graphic design; user interface design (UI design)</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java" class="icons"></i>
+                <h2>Java Develop</h2>
+                <p> Writing a programs on java and performing code re-usability building a logics 
+                    as i can decrease the code.designing as few implementation dependencies as per customer requirements.
+                </p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database" class="icons"></i>
+                <h2>DataBase Opertator</h2>
+                <p>Creating a tables and manipluating the constrains in the table manipluate the data like adding  new colums,rows 
+                   rename the data and delete the data and modify the data finally performing operations on table data on DataBase.
+                </p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------------------------Portfolio----------------------------------- -->
+<!-- <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<!-- ----------------------------------contact---------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>aeabraham7@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9666314814</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ankani.ezra/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/ezra-abraham-870503264/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/ezraabhi?t=d9vWM8UgkOQWOpDRpDF9tw&s=08"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.instagram.com/ezra_abraham_ankani/"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                    <a href="./EA_resumea.docx" download class="btn btn2">Download CV</a>
+                </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="submit btn2;">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-sharp fa-regular fa-copyright"></i> Ezra. Made with <i class="fa-solid fa-heart"></i> by easy Tutorials</p>
+    </div>
+</div>
+
+<script>
+    var sidmenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidmenu.style.right = "0";
+    }
+    function closemenu(){
+        sidmenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwhMLCRn6Dp_f1Lkq9qPRWTMYOlDXaCWLXksghkjFZ3efvZPlGkT_Uesm-0eqcKpkbp/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
