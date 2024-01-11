@@ -292,7 +292,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
    #header{
-      background-image: url(./Mypic-removebg-preview\ \(1\).png);
+/*       background-image: url(./Mypic-removebg-preview\ \(1\).png); */
       background-size: 85% 100%;
       background-repeat: no-repeat;
       background-position: right ;
